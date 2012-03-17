@@ -1,0 +1,150 @@
+body {
+    background: #2C001E;
+    color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    font-family:     "Courier New",
+                    Courier,
+                    monospace;
+}
+
+a {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+pre {
+    display:block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bolder;
+   /* color: #FA885B; ili #FE7929;*/
+
+}
+
+p img {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 1064px;
+        margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    height: auto;
+    border-bottom: 2px solid #FFF;
+    padding: 0px;
+}
+
+/* MENUUUUU */
+
+#menu {
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #FFF;
+}
+
+#menu ul {
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+}
+
+#menu ul li {
+    list-style: none;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 5px;
+    float: left;
+    width: 32%;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    font-weight: bolder;
+    
+}
+
+#menu ul li a{
+    padding: 5px;
+    width:100%;
+}
+
+#menu ul li:hover {
+
+    background-image: url(images/bg.png);
+    color: #FFF;
+}
+
+#menu ul li ul {
+    display: block;
+    position: absolute;
+    width: 22%;
+}
+
+#menu ul li ul li {
+    visibility: hidden;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.9em;
+    float: left;
+    width: 98%;
+    -webkit-border-radius: 0px;
+    background: #2C001E;
+    color: #fff;
+    border: 1px dashed #FFF;
+}
+
+#menu ul li ul li:hover {
+    background-image: url(images/bg.png);
+    color: #FFF;
+}
+
+#menu ul li ul li:hover a {
+
+        -webkit-border-radius: 10px;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+    margin: 2px;
+    padding: 2px;
+}
+
+#menu ul li:hover ul li {
+    visibility: visible;
+    height: auto;
+    padding: 5px;
+    
+}
+
+/* KRAJ MENUA */
+
+#article {
+    width: 94%;
+    height: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#footer {
+    width:100%;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+}
